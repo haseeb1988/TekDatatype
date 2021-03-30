@@ -7,9 +7,9 @@ public class mymain {
 		byte byteVar = 5;
 		short shortVar = 20;
 		int myNum = 500;               // Integer (whole number)
-		long longvariable = 200;
+		long longvariable = 3885L;
 		float myFloatNum = 50/10;    // Floating point number
-		double doubleVar = 20.231;
+		double doubleVar = 20.23;
 		
 		char myLetter = 'D';         // Character
 		boolean myBool = true;       // Boolean
@@ -44,13 +44,33 @@ public class mymain {
 	    int abc = (int) ff;
 
 	    System.out.println(abc);
-	    System.out.println(abc);
-	    System.out.println(abc);
-	    System.out.println(abc);
-	    System.out.println(abc);
-	    
-	    
 
+	    
+	    
+	    // ---------------------- Type promotion in Expressions   
+	    
+	    byte b = 42; 
+        char c = 'a'; 
+        short sss = 1024;
+        int iii = 50000;
+        float fff = 5.67f;
+        double ddd = .1234;
+          
+        // The Expression
+        double result = (f * b) + (i / c) - (d * sss);
+          
+        //Result after all the promotions are done
+        System.out.println("result = " + result);
+	    
+   //  -------------- Explicit type casting in Expressions
+        
+      //type casting int to byte
+        b = (byte)(b * 2); 
+        System.out.println(b);
+        double plancksConstant = 6.626e-34;
+        
+        System.out.println("power --> "+plancksConstant  +" \"hello\" ");
+        
 	}
 
 }
