@@ -32,7 +32,7 @@ public class mymain {
         System.out.println("Long value "+l);
         System.out.println("Float value " + f);
         System.out.println("double value "+ d);
-        
+        System.out.println("double value "+ d);
         // narrow  or explicit conversion
       
 		byte mybyte  = (byte) d;
