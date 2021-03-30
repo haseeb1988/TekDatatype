@@ -44,7 +44,12 @@ public class mymain {
 	    int abc = (int) ff;
 
 	    System.out.println(abc);
-	   
+	    System.out.println(abc);
+	    System.out.println(abc);
+	    System.out.println(abc);
+	    System.out.println(abc);
+	    
+	    
 
 	}
 
